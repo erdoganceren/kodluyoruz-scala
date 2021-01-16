@@ -14,7 +14,7 @@ object Application {
   def main(args: Array[String]): Unit = {
     val file = new File("C:/Users/ASUS/Desktop/Scala/kodluyoruz-scala//data/streets.csv")
 
-    println("Kaç kelime arayacaksınız? :")
+    println("Kaç tane sokak/cadde arayacaksınız?:")
     var countOfInput = scala.io.StdIn.readInt()
     println("Aramak istediğiniz sokak/cadde isimlerini girin:")
     var nameList: Set[String] = Set();
